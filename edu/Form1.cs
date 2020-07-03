@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.ML;
+using Microsoft.ML.Data;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +17,10 @@ namespace edu
         public Form1()
         {
             InitializeComponent();
+
+            LightGbmEx lightGbmEx = new LightGbmEx("creditcard.csv", "model.zip");
+
+
         }
     }
 }
