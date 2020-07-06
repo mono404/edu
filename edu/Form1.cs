@@ -18,7 +18,7 @@ namespace edu
         {
             InitializeComponent();
 
-            LightGbmEx lightGbmEx = new LightGbmEx("creditcard.csv", "model.zip");
+            TaxiFarePrediction taxiFarePrediction = new TaxiFarePrediction();
 
 
         }
