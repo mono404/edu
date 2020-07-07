@@ -18,8 +18,8 @@ namespace edu
         {
             InitializeComponent();
 
-            TaxiFarePrediction taxiFarePrediction = new TaxiFarePrediction();
-
+            //TaxiFarePrediction taxiFarePrediction = new TaxiFarePrediction();
+            ResNetv2 resNetv2 = new ResNetv2();
 
         }
     }
