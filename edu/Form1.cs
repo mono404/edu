@@ -19,7 +19,8 @@ namespace edu
             InitializeComponent();
 
             //TaxiFarePrediction taxiFarePrediction = new TaxiFarePrediction();
-            ResNetv2 resNetv2 = new ResNetv2();
+            //ResNetv2 resNetv2 = new ResNetv2();
+            Onnx.Onnx onnx = new Onnx.Onnx();
 
         }
     }
