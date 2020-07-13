@@ -20,8 +20,8 @@ namespace edu
 
             //TaxiFarePrediction taxiFarePrediction = new TaxiFarePrediction();
             //ResNetv2 resNetv2 = new ResNetv2();
-            Onnx.Onnx onnx = new Onnx.Onnx();
-
+            //Onnx.Onnx onnx = new Onnx.Onnx();
+            LogisticRegression.SentimentAnalysis sentimentAnalysis = new LogisticRegression.SentimentAnalysis();
         }
     }
 }

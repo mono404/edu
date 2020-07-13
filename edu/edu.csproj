@@ -318,6 +318,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LogisticRegression\SentimentAnalysis.cs" />
+    <Compile Include="LogisticRegression\SentimentData.cs" />
     <Compile Include="Onnx\DataStructures\ImageNetData.cs" />
     <Compile Include="Onnx\DataStructures\ImageNetPrediction.cs" />
     <Compile Include="Onnx\Onnx.cs" />
